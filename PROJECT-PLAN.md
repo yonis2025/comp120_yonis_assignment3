@@ -1,43 +1,79 @@
-# HirePath Project Overview
+# HirePath Project Plan
 
-## Product summary
-HirePath is a website-only hiring platform MVP designed for three user roles:
-1. Applicants
-2. Employers
-3. Admins
+## 📌 Project Overview
 
-## Product goals
-- Present a trustworthy and modern hiring experience
-- Prove end-to-end flows before backend development
-- Keep deployment simple using static hosting
-- Structure frontend code for future backend integration
+HirePath is a **frontend-only hiring platform MVP** designed for three user roles:
 
-## User flow summary
+* Applicants
+* Employers
+* Admins
 
-### Applicant
-Landing page → sign up → verify email UI → dashboard → browse jobs → save/apply → messages → interviews → AI match → settings
+It demonstrates a complete hiring workflow without backend integration.
 
-### Employer
-Landing page → sign up/login → company profile → post job → manage jobs → review applicants → message candidates → schedule interviews
+---
 
-### Admin
-Admin login → dashboard → employer approvals → job approvals → reports → analytics → content management
+## 🎯 Product Goals
 
-## Limitations of frontend-only mode
-- No real authentication
-- No secure uploads
-- No database persistence beyond localStorage
-- No real payment processing
-- No actual AI scoring
-- No live messaging
-- No calendar sync
+* Deliver a modern and trustworthy hiring experience
+* Validate complete user flows before backend implementation
+* Keep deployment simple using static hosting
+* Prepare scalable frontend structure for future backend integration
 
-## Why this version still works well
-- Demonstrates a believable product experience
-- Supports portfolio presentation
-- Makes future backend scoping much easier
-- Separates role-specific workflows clearly
+---
 
+## 👥 User Flows
 
-## Branding and validation upgrade
-- Added HirePath logo system, stronger visual branding, real stock imagery, localStorage auth seeding, sample accounts, validation rules, and UI feedback states.
+### 👤 Applicant Flow
+
+Landing Page → Sign Up → Email Verification UI → Dashboard → Browse Jobs → Apply → Messaging → Interviews → AI Match → Settings
+
+### 🏢 Employer Flow
+
+Landing Page → Sign Up/Login → Company Profile → Post Job → Manage Jobs → Review Applicants → Messaging → Schedule Interviews
+
+### 🛠️ Admin Flow
+
+Admin Login → Dashboard → Employer Approvals → Job Approvals → Reports → Analytics → Content Management
+
+---
+
+## ⚠️ Limitations (Frontend-Only MVP)
+
+* No real authentication (simulated with localStorage)
+* No secure file uploads
+* No database persistence beyond localStorage
+* No real payment processing
+* No actual AI-based scoring
+* No real-time messaging
+* No calendar integrations
+
+---
+
+## ✅ Why This MVP Works
+
+* Demonstrates a realistic end-to-end product experience
+* Ideal for portfolio showcasing
+* Simplifies backend planning and scope definition
+* Clearly separates user roles and workflows
+
+---
+
+## 🎨 Branding & UI Enhancements
+
+* Integrated HirePath logo and branding
+* Improved UI consistency and visual hierarchy
+* Added validation states and user feedback
+* Included sample/demo accounts for testing
+
+---
+
+## 🚀 Future Improvements
+
+* Backend integration (Node.js / Firebase)
+* Authentication system (JWT / OAuth)
+* Real-time messaging (WebSockets)
+* AI-based candidate matching
+* Payment gateway integration
+* Calendar + interview scheduling system
+
+---
